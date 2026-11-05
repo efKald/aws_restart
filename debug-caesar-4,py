@@ -39,7 +39,7 @@ def decryptMessage(message, cipherKey, alphabet):
 
 # Main program logic
 def runCaesarCipherProgram():
-    myAlphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    myAlphabet="ABCDEFGprintJKLMNOPQRSTUVWXYZ"
     print(f'Alphabet: {myAlphabet}')
     myAlphabet2 = getDoubleAlphabet(myAlphabet)
     print(f'Alphabet2: {myAlphabet2}')
